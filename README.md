@@ -38,9 +38,7 @@ This project implements a Convolutional Neural Network (CNN) to classify MRI ima
 
 2. **Run the Model**:
     Execute the script to start training the CNN:
-    ```bash
-    python main.py
-    ```
+   `image_classification.ipynb`
 
 3. **Monitor Training**:
     - **Training and Validation Accuracy**: Track the model's performance over epochs.
@@ -52,7 +50,7 @@ This project implements a Convolutional Neural Network (CNN) to classify MRI ima
 
 ## Files Needed
 Ensure the following files are in your project directory:
-- `main.py`: Main script for running the CNN training and evaluation
+- `image_classification.ipynb`: Main script for running the CNN training and evaluation
 - `requirements.txt`: List of Python dependencies
 - Your dataset directory (`Alzheimer's Dataset`) with subdirectories for training, testing, and validation images
 
@@ -74,10 +72,7 @@ If you encounter any issues:
 - Check for any missing dependencies and install them as needed.
 - Review the console output for specific error messages and adjust the code accordingly.
 
-## Contributing
-Contributions to improve the model or add new features are welcome. Please submit a pull request with your changes.
-
 ## Acknowledgements
-- Medical imaging datasets and resources used in this project.
+- Medical imaging datasets and resources used in this project; https://www.kaggle.com/datasets/tourist55/alzheimers-dataset-4-class-of-images
 - TensorFlow and other libraries for their robust deep learning tools.
 
